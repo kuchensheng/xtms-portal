@@ -1,4 +1,4 @@
-package com.xtms.application.controller.user;
+package com.mermaid.application.portal.controller;
 
 import com.mermaid.application.api.UserCloudService;
 import com.mermaid.application.constant.EnumLoginResult;
@@ -14,6 +14,7 @@ import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 import java.util.Date;
 import java.util.List;
@@ -28,7 +29,7 @@ import java.util.List;
 @Api(value = "用户信息管理中心",tags = "西塘民宿门户接口")
 public class UserController {
 
-    @Autowired
+    @Resource
     private UserCloudService userCloudService;
 
     @ApiOperation(value = "添加用户")
