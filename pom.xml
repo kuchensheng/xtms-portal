@@ -29,6 +29,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <order.version>1.0-SNAPSHOT</order.version>
+    <user.version>1.0-SNAPSHOT</user.version>
   </properties>
 
   <dependencies>
@@ -43,6 +44,12 @@
       <groupId>com.xtms.application</groupId>
       <artifactId>order-management-sdk</artifactId>
       <version>${order.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.mermaid.application</groupId>
+      <artifactId>sdk</artifactId>
+      <version>${user.version}</version>
     </dependency>
   </dependencies>
 
