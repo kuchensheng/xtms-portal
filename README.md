@@ -9,7 +9,7 @@
 user-management | 用户管理中心 | 20100 - 20110 
 xtms-portal | 门户API | 19600 - 19610
 
-## Release 1.1
+## Release 1.0
 + 集成订单管理
 + 集成资源管理
 
